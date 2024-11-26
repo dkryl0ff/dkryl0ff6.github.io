@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Просто сайт</title>
+	</head>
+	<body>
+		<form id="form">
+			<label id="result"></label>
+			<br />
+			<label for="amount">Количество товара:</label>
+			<input
+				id="amount"
+				name="amount"
+				min="1"
+				value="1"
+				placeholder="Введите количество товара"
+				required
+				type="number"
+			/>
+			<br />
+			<label>Тип услуги</label>
+			<div id="radios">
+				<label
+					><input
+						type="radio"
+						name="prodOptions"
+						value="item_1"
+					/>Отопление</label
+				>
+				<label
+					><input
+						type="radio"
+						name="prodOptions"
+						value="item_2"
+					/>Интернет</label
+				>
+				<label
+					><input type="radio" name="prodOptions" value="item_3" />Доставка продуктов</label
+				>
+			</div>
+		</form>
+	</body>
+
+	<script src="main.js"></script>
+</html>
